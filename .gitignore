@@ -288,6 +288,6 @@ __pycache__/
 *.odx.cs
 *.xsd.cs
 
-# secrets/
-secrets
-src/**/Secrets.cs
+# Keep mac specific files from sneaking in
+
+.DS_Store
