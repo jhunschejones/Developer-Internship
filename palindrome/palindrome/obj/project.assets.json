@@ -664,34 +664,28 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ndykman\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "/Users/joshua/.nuget/packages/": {},
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Git\\intern\\Coding-Challenges\\palindrome\\palindrome\\palindrome.csproj",
+      "projectUniqueName": "/Users/joshua/Documents/GitHub/PHP-Internship/palindrome/palindrome/palindrome.csproj",
       "projectName": "palindrome",
-      "projectPath": "C:\\Git\\intern\\Coding-Challenges\\palindrome\\palindrome\\palindrome.csproj",
-      "packagesPath": "C:\\Users\\ndykman\\.nuget\\packages\\",
-      "outputPath": "C:\\Git\\intern\\Coding-Challenges\\palindrome\\palindrome\\obj\\",
+      "projectPath": "/Users/joshua/Documents/GitHub/PHP-Internship/palindrome/palindrome/palindrome.csproj",
+      "packagesPath": "/Users/joshua/.nuget/packages/",
+      "outputPath": "/Users/joshua/Documents/GitHub/PHP-Internship/palindrome/palindrome/obj",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\ndykman\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+        "/Users/joshua/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "T:\\Enrollment Services\\nuget": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -711,7 +705,7 @@
           "Microsoft.NETCore.App": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[2.0.0, )",
+            "version": "2.0",
             "autoReferenced": true
           }
         },

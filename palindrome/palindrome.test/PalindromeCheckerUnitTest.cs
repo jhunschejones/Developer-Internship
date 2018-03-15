@@ -33,7 +33,7 @@ namespace Palindrome.Test
             bool a = p.IsPalindrome(myString);
 
             // Assert
-            Assert.AreEqual(true, a);
+            Assert.IsTrue(a);
         }
 
         [TestMethod]
@@ -47,7 +47,7 @@ namespace Palindrome.Test
             bool a = p.IsPalindrome(myString);
 
             // Assert
-            Assert.AreEqual(false, a);
+            Assert.IsFalse(a);
         }
 
         [TestMethod]
@@ -61,7 +61,7 @@ namespace Palindrome.Test
             bool a = p.IsPalindrome(myString);
 
             // Assert
-            Assert.AreEqual(true, a);
+            Assert.IsTrue(a);
         }
 
         [TestMethod]
@@ -75,7 +75,7 @@ namespace Palindrome.Test
             bool a = p.IsPalindrome(myString);
 
             // Assert
-            Assert.AreEqual(true, a);
+            Assert.IsTrue(a);
         }
 
         [TestMethod]
@@ -89,7 +89,7 @@ namespace Palindrome.Test
             bool a = p.IsPalindrome(myString);
 
             // Assert
-            Assert.AreEqual(false, a);
+            Assert.IsFalse(a);
         }
 
     }

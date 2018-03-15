@@ -11,6 +11,21 @@ namespace Palindrome // NOTE: Namespaces in C# are PascalCased (starting with a 
         /// </summary>
         /// <param name="myString"></param>
         /// <returns></returns>
+
+
+        // I am calling this function to reverse the string without using arrays
+        public string ReverseString(string input)
+        {
+            var Reversed = "";
+
+            foreach (char c in input)
+            {
+                Reversed = c.ToString() + Reversed;
+            }
+
+            return Reversed;
+        }
+
         public bool IsPalindrome(string myString)
         { 
             // NOTE, Most C# code uses BSD style, in which braces for a new function are on a new line.
@@ -35,14 +50,17 @@ namespace Palindrome // NOTE: Namespaces in C# are PascalCased (starting with a 
             // NOTE: It is worth try to code without using reverse (or writing reverse yourself).
 
             // convert string to array, reverse, convert back to string
-            char[] myArray = myString.ToCharArray();
-            Array.Reverse(myArray);
-            string myStringReverse = new string(myArray);
+            //char[] myArray = myString.ToCharArray();
+            //Array.Reverse(myArray);
+            //string myStringReverse = new string(myArray);
+
+
 
             // Note: We can just return of the comparison here. 
             // If they are equal, the string is a palindrome, if not, the string is not. 
 
-            return myString == myStringReverse;
+            return myString == ReverseString(myString);
         }
+
     }
 }
