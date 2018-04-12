@@ -73,7 +73,8 @@ In this program, the team seeds sample data to use for an automated test framewo
                 Assert.IsNotNull(thisPersonEmail);
                 Assert.AreNotEqual("", thisPersonEmail);
                 Assert.IsTrue(typeof(String).IsInstanceOfType(thisPersonEmail));
-                Assert.IsTrue(Regex.IsMatch(thisPersonEmail, @"^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,63}$", RegexOptions.IgnoreCase));
+                Assert.IsTrue(Regex.IsMatch(thisPersonEmail, @"^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,63}$", 
+                        RegexOptions.IgnoreCase));
 
             }
 
