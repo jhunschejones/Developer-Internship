@@ -79,6 +79,23 @@ namespace Palindrome.Test
         }
 
         [TestMethod]
+        public void IsPalindromeMultiCharacterTest2()
+        {
+            // Arrange
+
+            // Note, it's so close to a palindrome, but not quite. 
+            string myString = "tattarsattat";
+            PalindromeChecker p = new PalindromeChecker();
+
+            // Act
+            bool a = p.IsPalindrome(myString);
+
+            // Assert
+            Assert.IsFalse(a);
+        }
+
+
+        [TestMethod]
         public void IsPalindromeNullTest()
         {
             // Arrange
